@@ -65,5 +65,11 @@ console.log(true||false);
 //not
 console.log(!false);
 
-
+// functions--------------------
+// DRY Principle  = Do not repeat yourself
+function avg(a,b){
+    return (a+b)/2;
+}
+c1= avg(3,4);
+console.log(c1);
 
