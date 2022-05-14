@@ -38,4 +38,32 @@ var marks={
 
 var arr=[1,2,3,4,5]; //multiples data types allowed in it
 
+//  operators in JS-----------------------
+// Arithmetic Operators
+console.log(num1+num2);
+console.log(num1-num2);
+console.log(num1*num2);
+console.log(num1/num2);
+
+//Assignment Operators
+var c=num1;
+
+// Comparison Operators
+console.log(num1==num2);
+console.log(num1>=num2);
+console.log(num1<=num2);
+console.log(num1<num2);
+console.log(num1>num2);
+
+//logical operators
+// And 
+console.log(true&&true);
+
+//OR
+console.log(true||false);
+
+//not
+console.log(!false);
+
+
 
