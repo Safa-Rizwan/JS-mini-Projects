@@ -124,13 +124,28 @@
 // })
 
 //SetTimeOut and SetTime interval------------
-logkaro=()=>{
-    console.log('click cont');
-    u.style.border='2px solid red';
+// logkaro=()=>{
+//     console.log('click cont');
+//     u.style.border='2px solid red';
 
-}
-//setTimeout(logkaro,2000);
-clr = setInterval(logkaro,2000);
-clearTimeout(clr);
-// use clearInterval(clr)/ clearTimeout(clr) to cancel it ===> id
+// }
+// //setTimeout(logkaro,2000);
+// clr = setInterval(logkaro,2000);
+// clearTimeout(clr);
+// // use clearInterval(clr)/ clearTimeout(clr) to cancel it ===> id
 
+
+// Local Storage -------------
+// let arr = [1,2,3,4]
+// localStorage.setItem('list1',arr);
+// console.log(localStorage.getItem('list1'));
+// localStorage.removeItem('list1');
+// localStorage.clear()
+
+//JSON format---------------------
+obj = {name: 'safa', age:21, marks: 100};
+jso=JSON.stringify(obj);
+console.log(jso);
+str=(`{"name":"safa","age":"21","marks":"100"}`);
+parsed=JSON.parse(str);
+console.log(parsed);
