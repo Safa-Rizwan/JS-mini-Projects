@@ -107,7 +107,7 @@
 // tn[0].classList.add('text');
 
 // Query Selector--------------
-// u=document.querySelector('.container');
+ u=document.querySelector('.container');
 // console.log(u);
 
 // //Events in JS
@@ -123,5 +123,14 @@
 //     u.style.border='2px solid red';
 // })
 
+//SetTimeOut and SetTime interval------------
+logkaro=()=>{
+    console.log('click cont');
+    u.style.border='2px solid red';
 
+}
+//setTimeout(logkaro,2000);
+clr = setInterval(logkaro,2000);
+clearTimeout(clr);
+// use clearInterval(clr)/ clearTimeout(clr) to cancel it ===> id
 
