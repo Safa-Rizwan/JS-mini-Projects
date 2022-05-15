@@ -107,8 +107,21 @@
 // tn[0].classList.add('text');
 
 // Query Selector--------------
-u=document.querySelector('.continer');
-console.log(u);
+// u=document.querySelector('.container');
+// console.log(u);
+
+// //Events in JS
+// // onclick
+// // window.onload
+// // addEvent listener---> click, mouseover, mouseout, mouseup
+// //
+// function clicked(){
+//     console.log('button click!')
+// }
+// u.addEventListener('mousedown',function(){
+//     console.log('click cont');
+//     u.style.border='2px solid red';
+// })
 
 
 
